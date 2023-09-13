@@ -1,0 +1,138 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(21, 21, 41);
+    color: white;
+    font-family: Roboto, Helvetica, sans-serif;
+    user-select: none;
+}
+
+.container {
+    max-width: 320px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+}
+
+img {
+    width: 150px;
+}
+
+h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    font-size: 1.7em;
+}
+
+#textarea-el {
+    height: 180px;
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    background-color: rgb(52, 52, 80);
+    color: lightgray;
+    border: none;
+    border-radius: 7px;
+    resize: none;
+}
+
+#textarea-el:focus::placeholder {
+    color: transparent;
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+input {
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(52, 52, 80);
+    color: lightgray;
+    border: none;
+    border-radius: 7px;
+}
+
+input:focus {
+    border-color: black;
+    outline: 1.5px solid white;
+}
+
+input:focus::placeholder {
+    color: transparent;
+}
+
+#required-el {
+    color: rgb(212, 79, 79);
+    font-size: 0.9em;
+}
+
+#publish-btn {
+    padding: 16px;
+    border-radius: 7px;
+    border: none;
+    background-color: rgb(6, 110, 245);
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: rgb(148, 148, 148);
+    cursor: pointer;
+}
+
+.endorsements-title {
+    margin-top: 10px;
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
+ul li {
+    list-style: none;
+    background-color: white;
+    color: black;
+    text-align: left;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+li h2, li p {
+    margin-bottom: 10px;
+    font-size: 1.3em;
+}
+
+.text {
+    text-align: justify;
+    color: rgb(123, 123, 123);
+}
+
+.from-like-container{
+    display: flex;
+}
+
+.from {
+    width: 70%;
+}
+
+#like-btn-el {
+    margin-left: auto;
+    background-color: transparent;
+    border: none;
+}
+
+#like-btn-el:hover {
+    cursor: pointer;
+    color: rgb(6, 110, 245);
+}
+
+span {
+    color: black;
+}
